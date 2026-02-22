@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Квиз (JSON версия)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { background-color: #f8f9fa; padding-top: 20px; padding-bottom: 50px; }
+        .question-card { margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .option { cursor: pointer; transition: background-color 0.2s; }
+        .option:hover { background-color: #f1f1f1; }
+
+        .correct-guess { background-color: #d4edda !important; color: #155724; font-weight: bold; }
+        .wrong-guess { background-color: #f8d7da !important; color: #721c24; }
+        .actual-correct { background-color: #e2e3e5 !important; color: #383d41; font-weight: bold;}
+
+        .disabled { pointer-events: none; }
+        #results-container { display: none; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center mb-4">Тестирование</h1>
+
+    <div id="quiz-container">
+        <div class="text-center text-muted">Загрузка вопросов...</div>
+    </div>
+
+    <div id="results-container" class="card text-center border-primary">
+        <div class="card-header bg-primary text-white h4">Тест завершен!</div>
+        <div class="card-body">
+            <h5 class="card-title">Твой результат:</h5>
+            <p class="card-text h2 mt-3 mb-3" id="score-text">0 / 0</p>
+            <p class="card-text h4 text-muted" id="percentage-text">0%</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    let allQuestions = [];
+    let correctAnswersCount = 0;
+    let questionsAnswered = 0;
+
+    async function loadQuizData() {
+        try {
+            const [midtermRes, endtermRes] = await Promise.all([
+                fetch('midterm.json').catch(() => null),
+                fetch('endterm.json').catch(() => null)
+            ]);
+
+            const midtermData = (midtermRes && midtermRes.ok) ? await midtermRes.json() : {};
+            const endtermData = (endtermRes && endtermRes.ok) ? await endtermRes.json() : {};
+
+            allQuestions = [...Object.values(midtermData), ...Object.values(endtermData)];
+
+            renderQuiz();
+        } catch (error) {
+            document.getElementById('quiz-container').innerHTML = `<div class="alert alert-danger">Ошибка загрузки файлов: ${error.message}</div>`;
+        }
+    }
+
+    function renderQuiz() {
+        const container = document.getElementById('quiz-container');
+        container.innerHTML = '';
+
+        if (allQuestions.length === 0) {
+            container.innerHTML = `<div class="alert alert-warning">Вопросы не найдены. Убедитесь, что файлы midterm.json и endterm.json находятся в той же папке.</div>`;
+            return;
+        }
+
+        allQuestions.forEach((q, index) => {
+            const card = document.createElement('div');
+            card.className = 'card question-card';
+
+            let optionsHtml = '';
+            const possibleKeys = ['a', 'b', 'c', 'd', 'e'];
+
+            possibleKeys.forEach(key => {
+                if (q[key]) {
+                    const upperKey = key.toUpperCase();
+                    optionsHtml += `<li class="list-group-item option" data-question-index="${index}" data-option-key="${upperKey}">${upperKey}) ${q[key]}</li>`;
+                }
+            });
+
+            card.innerHTML = `
+                <div class="card-body">
+                    <h5 class="card-title">Вопрос ${index + 1}</h5>
+                    <p class="card-text">${q.question}</p>
+                </div>
+                <ul class="list-group list-group-flush" id="options-list-${index}">
+                    ${optionsHtml}
+                </ul>
+            `;
+            container.appendChild(card);
+        });
+
+        document.querySelectorAll('.option').forEach(item => {
+            item.addEventListener('click', handleOptionClick);
+        });
+    }
+
+    function handleOptionClick(event) {
+        const selectedOptionElement = event.target;
+        const questionIndex = selectedOptionElement.getAttribute('data-question-index');
+        const selectedKey = selectedOptionElement.getAttribute('data-option-key');
+
+        const questionData = allQuestions[questionIndex];
+        const correctKey = questionData.answer;
+
+        const optionsList = document.getElementById(`options-list-${questionIndex}`);
+        optionsList.classList.add('disabled');
+
+        if (selectedKey === correctKey) {
+            selectedOptionElement.classList.add('correct-guess');
+            correctAnswersCount++;
+        } else {
+            selectedOptionElement.classList.add('wrong-guess');
+            const correctOptionElement = optionsList.querySelector(`[data-option-key="${correctKey}"]`);
+            if (correctOptionElement) {
+                correctOptionElement.classList.add('actual-correct');
+            }
+        }
+
+        questionsAnswered++;
+        checkQuizCompletion();
+    }
+
+    function checkQuizCompletion() {
+        if (questionsAnswered === allQuestions.length) {
+            const percentage = Math.round((correctAnswersCount / allQuestions.length) * 100);
+
+            document.getElementById('score-text').innerText = `${correctAnswersCount} / ${allQuestions.length}`;
+            document.getElementById('percentage-text').innerText = `${percentage}% правильных ответов`;
+
+            document.getElementById('results-container').style.display = 'block';
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+    }
+
+    window.onload = loadQuizData;
+
+</script>
+</body>
+</html>

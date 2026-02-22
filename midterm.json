@@ -1,0 +1,754 @@
+{
+    "1": {
+        "question": "A company is deploying both thin and thick client computers. Which configuration step will a technician need to do on the thin clients that will most likely not be done on the thick clients?",
+        "a": "Connect the computer to the LAN.",
+        "b": "Connect the computer to the application server.",
+        "c": "Install additional RAM.",
+        "d": "Install local applications.",
+        "answer": "B"
+    },
+    "2": {
+        "question": "A company is setting up one new laser printer on every floor. What type of server will store the print jobs in a queue and then spool them to the device when it is ready?",
+        "a": "FTP server",
+        "b": "proxy server",
+        "c": "web server",
+        "d": "print server",
+        "answer": "D"
+    },
+    "3": {
+        "question": "A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?",
+        "a": "The cable is not connected properly to the NIC.",
+        "b": "The computer has an invalid default gateway address.",
+        "c": "The computer has an invalid IP address.",
+        "d": "The computer has an incorrect subnet mask.",
+        "answer": "B"
+    },
+    "4": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to provide secure access to the central server room using a retinal scan. What device should the store owner recommend to accomplish the required task?",
+        "a": "biometric scanner",
+        "b": "keyboard",
+        "c": "NFC device",
+        "d": "flatbed scanner",
+        "answer": "A"
+    },
+    "5": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to manually input text for a new networking textbook that the customer is writing. What device should the store owner recommend to accomplish the required task?",
+        "a": "biometric scanner",
+        "b": "NFC device",
+        "c": "flatbed scanner",
+        "d": "keyboard",
+        "answer": "D"
+    },
+    "6": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to allow users to tap and pay for their purchases. What device should the store owner recommend to accomplish the required task?",
+        "a": "NFC device",
+        "b": "joystick or gamepad",
+        "c": "projector",
+        "d": "magstripe reader",
+        "answer": "A"
+    },
+    "7": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to help when repairing an airplane and that will allow the customer to see and interact with the repair manual at the same time. What device should the store owner recommend to accomplish the required task?",
+        "a": "biometric scanner",
+        "b": "keyboard",
+        "c": "AR headset",
+        "d": "NFC device",
+        "answer": "C"
+    },
+    "8": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to train pilots how to land and take off in a computer simulation environment. What device should the store owner recommend to accomplish the required task?",
+        "a": "projector",
+        "b": "joystick or gamepad",
+        "c": "magstripe reader",
+        "d": "AR headset",
+        "answer": "B"
+    },
+    "9": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to help a person with accessibility issues input instructions into a laptop by using a pen. What device should the store owner recommend to accomplish the required task?",
+        "a": "stylus",
+        "b": "biometric scanner",
+        "c": "keyboard",
+        "d": "NFC device",
+        "answer": "A"
+    },
+    "10": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to display a promotional presentation to a large audience at a conference. What device should the store owner recommend to accomplish the required task?",
+        "a": "joystick or gamepad",
+        "b": "magstripe reader",
+        "c": "projector",
+        "d": "AR headset",
+        "answer": "C"
+    },
+    "11": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to allow secure access to the main doors of the company by swiping an ID card. What device should the store owner recommend to accomplish the required task?",
+        "a": "magstripe reader",
+        "b": "biometric scanner",
+        "c": "keyboard",
+        "d": "NFC device",
+        "answer": "A"
+    },
+    "12": {
+        "question": "A customer comes into a computer parts and service store. The customer is looking for a device to allow secure access to the main doors of the company by swiping an ID card. What device should the store owner recommend to accomplish the required task?",
+        "a": "joystick or gamepad",
+        "b": "projector",
+        "c": "AR headset",
+        "d": "magstripe reader",
+        "answer": "D"
+    },
+    "13": {
+        "question": "A customer has a computer for a home business, but wants to have another computer as a web server. What would be the best solution for the customer to share the monitor, mouse, and keyboard between the two computers?",
+        "a": "KVM switch",
+        "b": "access point",
+        "c": "multipurpose device",
+        "d": "network switch",
+        "answer": "A"
+    },
+    "14": {
+        "question": "E) USB hub A customer needs additional storage space on an older computer. What will the technician look at in the computer to determine if an additional hard drive can be added?",
+        "a": "an available PATA/SATA connection",
+        "b": "the heat that is generated and air flow requirements",
+        "c": "BIOS version",
+        "d": "an open PCI/PCIe expansion slot",
+        "answer": "A"
+    },
+    "15": {
+        "question": "E) adequate RAM A network technician is setting up a web server for a small company. The company has obtained a domain name company-a.com from a domain registry service. The new web server is accessible through the IP address matching the domain. However, when the technician types company-a.com in the web browser, an error message displays saying that “The connection has timed out”. What is the problem?",
+        "a": "The domain name resolution failed.",
+        "b": "The DHCP server is down.",
+        "c": "The URL needs to be http://company-a.com.",
+        "d": "A web page named home.html is required to be created first.",
+        "answer": "A"
+    },
+    "16": {
+        "question": "A network technician is setting up a web server for a small company. The company has obtained a domain name companyX.com from a domain registry service. The web server must provide secure communication through SSL/TLS technology. When the technician enters companyX.com in the web browser, the unsecured part of the website is displayed. What should the technician do to make the web browser display the secure content of the web server?",
+        "a": "Ensure that the domain name is successfully resolved.",
+        "b": "Use http://companyX.com as the URL.",
+        "c": "Use https://companyX.com as the URL.",
+        "d": "Use http://companyX.com::443 as the URL.",
+        "answer": "C"
+    },
+    "17": {
+        "question": "A network technician is setting up a wireless access point in the front office of a small company. The technician needs to disable an option on the access point that would allow devices to dynamically add themselves to the network without configuration. Which technology should the technician disable?",
+        "a": "MAC filtering",
+        "b": "port forwarding",
+        "c": "NAT",
+        "d": "UPnP",
+        "answer": "D"
+    },
+    "18": {
+        "question": "A small company connects data acquisition equipment to the serial port of a computer. The equipment user has reported that not all data is being received by the computer. A technician wants to check the serial communication between the equipment and the computer. Which tool can the technician use to troubleshoot the serial communication?",
+        "a": "tone generator and probe",
+        "b": "multimeter",
+        "c": "cable tester",
+        "d": "loopback plug",
+        "answer": "D"
+    },
+    "19": {
+        "question": "A small company is upgrading its phone system with IP phones. These phones can be used just by plugging into a network port in the offices. Which technology would support the IP phones?",
+        "a": "NFC",
+        "b": "UPnP",
+        "c": "wireless power transfer",
+        "d": "Power over Ethernet",
+        "answer": "D"
+    },
+    "20": {
+        "question": "A student is looking to add memory in order to speed up a tower computer. Which type of memory module should the student be looking for?",
+        "a": "DIMM",
+        "b": "DIP",
+        "c": "SIMM",
+        "d": "SODIMM",
+        "answer": "A"
+    },
+    "21": {
+        "question": "A student is looking to add memory in order to speed up a tower computer. Which type of memory module should the student be looking for?",
+        "a": "DIMM",
+        "b": "DIP",
+        "c": "SIMM",
+        "d": "SODIMM",
+        "answer": "A"
+    },
+    "22": {
+        "question": "A technician is asked to configure a laptop for LoJack. What will the technician have to do to accomplish this task?",
+        "a": "Attach a physical cable through a special hardware loop that is part of the computer case.",
+        "b": "Install antimalware software.",
+        "c": "Perform special steps on the hard drive using the Disk Management tool.",
+        "d": "Enable it in BIOS.",
+        "answer": "D"
+    },
+    "23": {
+        "question": "A technician is building a thick client workstation that would be used to run a database and wants to ensure the best protection against errors. What type of memory would be best suited for this?",
+        "a": "RDRAM",
+        "b": "ECC",
+        "c": "DDR3",
+        "d": "DDR2",
+        "answer": "B"
+    },
+    "24": {
+        "question": "A technician is installing a new high-end video adapter card into an expansion slot on a motherboard. What may be needed to operate this video adapter card?",
+        "a": "24-pin ATX power connector",
+        "b": "PCI expansion slot",
+        "c": "Two 8-pin power connectors",
+        "d": "PCIe x 8 expansion slot",
+        "answer": "C"
+    },
+    "25": {
+        "question": "A technician is installing memory into a computer and notices that there are two black memory slots and two blue memory slots. Which memory technology does this motherboard use?",
+        "a": "ECC",
+        "b": "parity",
+        "c": "dual channel",
+        "d": "DDR4",
+        "answer": "C"
+    },
+    "26": {
+        "question": "A technician is researching how to troubleshoot a computer that reboots randomly. The research suggests that the technician should check the computer for distended capacitors. Where should the technician look for these?",
+        "a": "under the CPU",
+        "b": "on the motherboard",
+        "c": "on the memory module",
+        "d": "within the power supply",
+        "answer": "B"
+    },
+    "27": {
+        "question": "A technician is setting up a server that requires two connections between the client and the server, one for commands and replies, the other for the actual transfer of files. What type of server will accomplish this task?",
+        "a": "web server",
+        "b": "proxy server",
+        "c": "print server",
+        "d": "FTP server",
+        "answer": "D"
+    },
+    "28": {
+        "question": "A technician is setting up an environment where popular and frequently accessed web pages are stored locally on the internal network. What type of server will accomplish this task?",
+        "a": "FTP server",
+        "b": "web server",
+        "c": "proxy server",
+        "d": "print server",
+        "answer": "C"
+    },
+    "29": {
+        "question": "A technician looks at a motherboard and sees a 24-pin connector. What component would connect to the motherboard through the use of this 24-pin connector?",
+        "a": "power supply",
+        "b": "video card",
+        "c": "PATA optical drive",
+        "d": "SATA drive",
+        "answer": "A"
+    },
+    "30": {
+        "question": "E) floppy drive A technician needs to add a new wireless device to a small WLAN. The WLAN is a mixture of old and newer 802.11b and 802.11g devices. What choice for the new device would provide the most interoperability for present and future growth?",
+        "a": "Add a new 802.11n device.",
+        "b": "Add a new 802.11g device.",
+        "c": "Add a new 802.11a device.",
+        "d": "Add a new 802.11b device.",
+        "answer": "A"
+    },
+    "31": {
+        "question": "A technician needs to purchase a storage drive that both connects directly to the PCIe bus and provides reliability. Which type of storage device would best meet these requirements?",
+        "a": "tape drive",
+        "b": "2.5″ SSD",
+        "c": "NVMe M.2",
+        "d": "2.5″ HDD",
+        "answer": "C"
+    },
+    "32": {
+        "question": "A user is building a new computer system. Why would the user select a straight-through cable?",
+        "a": "to install an EEPROM",
+        "b": "to diminish any electrostatic charge",
+        "c": "to connect a device to a wired network",
+        "d": "to attach an external HD",
+        "answer": "C"
+    },
+    "33": {
+        "question": "A user is building a new computer system. Why would the user select a 24-pin connector?",
+        "a": "to replace a heatsink",
+        "b": "to diminish any electrostatic charge",
+        "c": "to attach power to the motherboard",
+        "d": "to attach an external HD",
+        "answer": "C"
+    },
+    "34": {
+        "question": "A user is building a new computer system. Why would the user select a DDR3?",
+        "a": "to diminish any electrostatic charge",
+        "b": "to attach a laser printer",
+        "c": "to install a memory module",
+        "d": "to attach a VR headset",
+        "answer": "C"
+    },
+    "35": {
+        "question": "A user is building a new computer system. Why would the user select a DDR4?",
+        "a": "to attach an external HD",
+        "b": "to attach a laser printer",
+        "c": "to configure a gaming console",
+        "d": "to install a memory module",
+        "answer": "D"
+    },
+    "36": {
+        "question": "A user is building a new computer system. Why would the user select a DVI to VGA adaptor?",
+        "a": "to connect a Bluetooth device",
+        "b": "to attach a laser printer",
+        "c": "to attach a VR headset",
+        "d": "to attach to an analog monitor",
+        "answer": "D"
+    },
+    "37": {
+        "question": "A user is building a new computer system. Why would the user select a PCIe x16 expansion slot?",
+        "a": "to install a GRU",
+        "b": "to install a video card",
+        "c": "to attach a laser printer",
+        "d": "to attach a VR headset",
+        "answer": "B"
+    },
+    "38": {
+        "question": "A user is building a new computer system. Why would the user select an RG-6 cable?",
+        "a": "to install a GRU",
+        "b": "to replace cable TV cabling",
+        "c": "to attach a laser printer",
+        "d": "to attach a VR headset",
+        "answer": "B"
+    },
+    "39": {
+        "question": "A user is building a new computer system. Why would the user select external screws?",
+        "a": "to attach an external HD",
+        "b": "to configure a gaming console",
+        "c": "to install a power supply into a PC tower case",
+        "d": "to diminish any electrostatic charge",
+        "answer": "C"
+    },
+    "40": {
+        "question": "A user is building a new computer system. Why would the user select three hard drives?",
+        "a": "to share input devices between two monitors",
+        "b": "to configure a RAID",
+        "c": "to attach a laser printer",
+        "d": "to attach a VR headset",
+        "answer": "B"
+    },
+    "41": {
+        "question": "A user is building a new computer system. Why would the user select two hard drives?",
+        "a": "to share input devices between two monitors",
+        "b": "to attach a laser printer",
+        "c": "to configure a RAID",
+        "d": "to attach a VR headset",
+        "answer": "C"
+    },
+    "42": {
+        "question": "A user is setting up a home wireless network. Which type of device must the user have in order to establish the wireless network and provide access to the internet for multiple home devices?",
+        "a": "patch panel",
+        "b": "switch",
+        "c": "hub",
+        "d": "wireless router",
+        "answer": "D"
+    },
+    "43": {
+        "question": "An administrator is setting up a framework to support access control on a network device. What type of server is able to control those who are permitted to access a network and track what actions they perform while accessing the network?",
+        "a": "web server",
+        "b": "DHCP",
+        "c": "FTP server",
+        "d": "authentication server",
+        "answer": "D"
+    },
+    "44": {
+        "question": "From which type of data storage does the CPU load information for processing during normal operation?",
+        "a": "ROM",
+        "b": "RAM",
+        "c": "SSD",
+        "d": "hard drive",
+        "answer": "B"
+    },
+    "45": {
+        "question": "Hard drives in a grocery warehouse keep failing because of vibrations in the warehouse environment. What would be a possible solution for this high failure rate?",
+        "a": "Install each computer in a specialized high airflow case.",
+        "b": "Install an SSD drive in each computer.",
+        "c": "Install an antistatic mat under each computer.",
+        "d": "Install a more powerful power supply in each computer.",
+        "answer": "B"
+    },
+    "46": {
+        "question": "How is a power supply commonly attached to a tower case?",
+        "a": "standoffs",
+        "b": "screws",
+        "c": "restraining strap",
+        "d": "retention bar",
+        "answer": "B"
+    },
+    "47": {
+        "question": "The current IP configuration of a small company is done manually and is time-consuming. Because of increased network growth, a technician needs a simpler way for IP configuration of workstations. Which service would simplify the workstation IP configuration task?",
+        "a": "DIPS",
+        "b": "ICMP",
+        "c": "APIPA",
+        "d": "DHCP",
+        "answer": "D"
+    },
+    "48": {
+        "question": "What characteristic best describes a biometric scanner?",
+        "a": "an input device that digitizes an image by placing the document on a flat glass surface and scanning from underneath",
+        "b": "an input device for playing games and flight simulation applications",
+        "c": "the first type of input device used to navigate the graphical user interface",
+        "d": "an input device often used to provide secure access to locations or devices by using voice, facial, or fingerprint recognition",
+        "answer": "D"
+    },
+    "49": {
+        "question": "What characteristic best describes a flatbed scanner?",
+        "a": "an input device for playing games and flight simulation applications",
+        "b": "a device that allows the use of one set of keyboard, mouse, and monitor to control multiple computers",
+        "c": "an input device that digitizes an image by placing the document on a flat glass surface and scanning from underneath",
+        "d": "the first type of input device used to navigate the graphical user interface",
+        "answer": "C"
+    },
+    "50": {
+        "question": "What characteristic best describes a joystick?",
+        "a": "an input device for playing games and flight simulation applications",
+        "b": "an output device used to present information from a laptop onto a screen",
+        "c": "an output device that uses LED, LCD, or OLED technology",
+        "d": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "answer": "A"
+    },
+    "51": {
+        "question": "What characteristic best describes a keyboard?",
+        "a": "an input device that provides verification of package delivery by digitizing a written name",
+        "b": "the first type of input device used for creating documents and emails",
+        "c": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "d": "an output device used to present information from a laptop onto a screen",
+        "answer": "B"
+    },
+    "52": {
+        "question": "What characteristic best describes a KVM switch?",
+        "a": "an input device often used to provide secure access to locations or devices by using voice, facial, or fingerprint recognition",
+        "b": "an input device allowing users to pay for a product by tapping their credit card or smartphone on another device",
+        "c": "an input device that reads barcodes affixed to most retail products",
+        "d": "a device that allows the use of one set of keyboard, mouse, and monitor to control multiple computers",
+        "answer": "D"
+    },
+    "53": {
+        "question": "What characteristic best describes a magstripe reader?",
+        "a": "an input device that provides verification of package delivery by digitizing a written name",
+        "b": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "c": "an input device that reads encoded information from the back of plastic cards",
+        "d": "an output device used to present information from a laptop onto a screen",
+        "answer": "C"
+    },
+    "54": {
+        "question": "What characteristic best describes a monitor?",
+        "a": "an output device used to present information from a laptop onto a screen",
+        "b": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "c": "an output device that uses LED, LCD, or OLED technology",
+        "d": "a head-mounted device that provides head-motion and eye-tracking sensors and displays three-dimensional images",
+        "answer": "C"
+    },
+    "55": {
+        "question": "What characteristic best describes a projector?",
+        "a": "an input device allowing users to pay for a product by tapping their credit card or smartphone on another device",
+        "b": "an input device that reads barcodes affixed to most retail products",
+        "c": "an input device that reads encoded information from the back of plastic cards",
+        "d": "an output device used to present information from a laptop onto a screen",
+        "answer": "D"
+    },
+    "56": {
+        "question": "What characteristic best describes a signature pad?",
+        "a": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "b": "an output device used to present information from a laptop onto a screen",
+        "c": "an input device that provides verification of package delivery by digitizing a written name",
+        "d": "an output device that uses LED, LCD, or OLED technology",
+        "answer": "C"
+    },
+    "57": {
+        "question": "What characteristic best describes a touch screen?",
+        "a": "an input device often used to provide secure access to locations or devices by using voice, facial, or fingerprint recognition",
+        "b": "an input device allowing users to pay for a product by tapping their credit card or smartphone on another device",
+        "c": "an input device that reads barcodes affixed to most retail products",
+        "d": "an input device that recognizes touch and pressure as instructions",
+        "answer": "D"
+    },
+    "58": {
+        "question": "What characteristic best describes a VR headset?",
+        "a": "a head-mounted device that provides head-motion and eye-tracking sensors and displays three-dimensional images",
+        "b": "an output device that uses LED, LCD, or OLED technology",
+        "c": "an output device used to present information from a laptop onto a screen",
+        "d": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "answer": "A"
+    },
+    "59": {
+        "question": "What characteristic best describes an AR headset?",
+        "a": "a head-mounted device that superimposes images and audio over a real world image and can provide users immediate access to information about their real surroundings",
+        "b": "an output device that uses LED, LCD, or OLED technology",
+        "c": "a head-mounted device that provides head-motion and eye-tracking sensors and displays three-dimensional images",
+        "d": "an output device used to present information from a laptop onto a screen",
+        "answer": "A"
+    },
+    "60": {
+        "question": "What is an active cooling solution for a PC?",
+        "a": "Add a heatsink to the CPU.",
+        "b": "Reduce the speed of the CPU.",
+        "c": "Use a painted computer case.",
+        "d": "Add an additional case fan.",
+        "answer": "D"
+    },
+    "61": {
+        "question": "What is an active cooling solution for a PC?",
+        "a": "Add a heatsink to the CPU.",
+        "b": "Reduce the speed of the CPU.",
+        "c": "Use a painted computer case.",
+        "d": "Add an additional case fan.",
+        "answer": "D"
+    },
+    "62": {
+        "question": "What is the fastest type of memory technology?",
+        "a": "Quadruple channel",
+        "b": "SODIMM",
+        "c": "Double channel",
+        "d": "SRAM",
+        "answer": "D"
+    },
+    "63": {
+        "question": "What type of connector is used to connect an analog modem to a telephone line socket?",
+        "a": "BNC",
+        "b": "RJ-11",
+        "c": "ST",
+        "d": "RJ-45",
+        "answer": "B"
+    },
+    "64": {
+        "question": "When a new PC is being built, which component has the most influence when selecting the case and power supply?",
+        "a": "hard disk type",
+        "b": "motherboard",
+        "c": "RAM module",
+        "d": "sound card",
+        "answer": "B"
+    },
+    "65": {
+        "question": "E) video card When a new PC is being built, which component has the most influence when selecting the case and power supply?",
+        "a": "hard disk type",
+        "b": "motherboard",
+        "c": "RAM module",
+        "d": "sound card",
+        "answer": "B"
+    },
+    "66": {
+        "question": "E) video card Where would a technician use an RG-6 cable?",
+        "a": "when connecting a display to a PC",
+        "b": "when attaching a PC to a LAN",
+        "c": "when replacing cable TV cabling",
+        "d": "when attaching an external hard drive",
+        "answer": "C"
+    },
+    "67": {
+        "question": "Which adapter would a technician install in a desktop computer to enable a video signal to be recorded from a video recorder to the computer hard drive?",
+        "a": "video capture card",
+        "b": "video adapter",
+        "c": "TV tuner card",
+        "d": "network interface card",
+        "answer": "A"
+    },
+    "68": {
+        "question": "Which characteristic describes a DIP?",
+        "a": "an individual memory chip that has dual rows of pins used to attach it to the motherboard",
+        "b": "chips that require constant power to function and are often used for cache memory",
+        "c": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "d": "chips whose contents can be “flashed” for deletion and are often used to store BIOS",
+        "answer": "A"
+    },
+    "69": {
+        "question": "Which characteristic describes DDR3 SDRAM?",
+        "a": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "b": "an individual memory chip that has dual rows of pins used to attach it to the motherboard",
+        "c": "a small circuit board that holds several memory chips and has a 30- or 72-pin configuration",
+        "d": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "answer": "A"
+    },
+    "70": {
+        "question": "Which characteristic describes ECC memory?",
+        "a": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "b": "chips that can detect multiple bit errors and correct single bit errors in memory",
+        "c": "an individual memory chip that has dual rows of pins used to attach it to the motherboard",
+        "d": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "answer": "B"
+    },
+    "71": {
+        "question": "Which characteristic describes EPROM?",
+        "a": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "b": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "c": "chips that require constant power to function and are often used for cache memory",
+        "d": "a chip that is nonvolatile and can be erased by exposing it to strong ultraviolet light",
+        "answer": "D"
+    },
+    "72": {
+        "question": "Which characteristic describes EPROM?",
+        "a": "SRAM that is internal and integrated into the CPU",
+        "b": "a smaller, more condensed memory module that provides random access data storage, ideal for use in laptops, printers, and other devices where conserving space is desirable",
+        "c": "a chip that is nonvolatile and can be erased by exposing it to strong ultraviolet light",
+        "d": "a small circuit board that holds several memory chips and has a 30- or 72-pin configuration",
+        "answer": "C"
+    },
+    "73": {
+        "question": "Which characteristic describes EPROM?",
+        "a": "SRAM that is internal and integrated into the CPU",
+        "b": "a smaller, more condensed memory module that provides random access data storage, ideal for use in laptops, printers, and other devices where conserving space is desirable",
+        "c": "a chip that is nonvolatile and can be erased by exposing it to strong ultraviolet light",
+        "d": "a small circuit board that holds several memory chips and has a 30- or 72-pin configuration",
+        "answer": "C"
+    },
+    "74": {
+        "question": "Which characteristic describes GDDR SDRAM?",
+        "a": "chips that require constant power to function and are often used for cache memory",
+        "b": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "c": "chips whose contents can be “flashed” for deletion and are often used to store BIOS",
+        "d": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "answer": "D"
+    },
+    "75": {
+        "question": "Which characteristic describes PROM?",
+        "a": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "b": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "c": "chips that require constant power to function and are often used for cache memory",
+        "d": "chips that are manufactured blank and then can be programmed once by a PROM programmer",
+        "answer": "D"
+    },
+    "76": {
+        "question": "Which characteristic describes ROM?",
+        "a": "chips that run at clock speeds of 800 MHz and have a connector with 240 pins",
+        "b": "chips specifically designed for video graphics that are used in conjunction with a dedicated GPU",
+        "c": "chips that require constant power to function and are often used for cache memory",
+        "d": "a chip that cannot be erased or rewritten and is now obsolete",
+        "answer": "D"
+    },
+    "77": {
+        "question": "Which component controls the communications and interactions between the CPU and other components on the motherboard?",
+        "a": "CMOS",
+        "b": "BIOS",
+        "c": "chipset",
+        "d": "RAM",
+        "answer": "C"
+    },
+    "78": {
+        "question": "Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0ab8:0001:0000:1000?",
+        "a": "2001:db8:1::ab8:0:1",
+        "b": "2001:db8::a0b0:8:1",
+        "c": "2001:db8:0:1::8:1",
+        "d": "2001:db8::ab8:1:0:1000",
+        "answer": "D"
+    },
+    "79": {
+        "question": "Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?",
+        "a": "2002:4200::25:1090:0:99",
+        "b": "2002:42::25:1090:0:99",
+        "c": "2002:420:c4:1008:25:190::990",
+        "d": "2002:42:10:c400::909",
+        "answer": "D"
+    },
+    "80": {
+        "question": "Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?",
+        "a": "fe80:9ea:0:2200::fe0:290",
+        "b": "fe80::220:b3f:f0e0:29",
+        "c": "fe80:9ea0::2020:0:bf:e0:9290",
+        "d": "fe80:9ea0::2020::bf:e0:9290",
+        "answer": "B"
+    },
+    "81": {
+        "question": "Which statement describes a characteristic of GDDR Synchronous Dynamic RAM?",
+        "a": "It is used in conjunction with a dedicated GPU.",
+        "b": "It has a low power consumption and is used for cache memory.",
+        "c": "It processes massive amounts of data at the fastest speeds.",
+        "d": "It is used for main memory.",
+        "answer": "A"
+    },
+    "82": {
+        "question": "Which statement describes a characteristic of SRAM in a PC?",
+        "a": "It has the highest power consumption.",
+        "b": "It is used for cache memory.",
+        "c": "It has a connector with 240 pins.",
+        "d": "It is used as main RAM in a PC.",
+        "answer": "B"
+    },
+    "83": {
+        "question": "Which statement describes a feature of SDRAM?",
+        "a": "It is able to support two writes and two reads per CPU clock cycle.",
+        "b": "It requires constant power to function.",
+        "c": "Its connector always has 240 pins.",
+        "d": "It can process overlapping instructions in parallel.",
+        "answer": "D"
+    },
+    "84": {
+        "question": "Which storage devices use a magnetic medium for storing data?",
+        "a": "compact disk drive",
+        "b": "solid state drive",
+        "c": "blue-ray disk drive",
+        "d": "hard disk drive",
+        "answer": "D"
+    },
+    "85": {
+        "question": "Which tool can protect computer components from the effects of ESD?",
+        "a": "antistatic wrist strap",
+        "b": "surge suppressor",
+        "c": "SPS",
+        "d": "UPS",
+        "answer": "A"
+    },
+    "86": {
+        "question": "Which type of device would be used on a laptop to verify the identity of a user?",
+        "a": "a MIDI device",
+        "b": "a biometric identification device",
+        "c": "a digitizer",
+        "d": "a touch screen",
+        "answer": "B"
+    },
+    "87": {
+        "question": "Which type of drive is typically installed in a 5.25 inch (13.34 cm) bay?",
+        "a": "hard drive",
+        "b": "SSD",
+        "c": "optical drive",
+        "d": "flash drive",
+        "answer": "C"
+    },
+    "88": {
+        "question": "Which type of interface was originally developed for high-definition televisions and is also popular to use with computers to connect audio and video devices?",
+        "a": "HDMI",
+        "b": "FireWire",
+        "c": "DVI",
+        "d": "VGA",
+        "answer": "A"
+    },
+    "89": {
+        "question": "E) USB Which type of interface was originally developed for high-definition televisions and is also popular to use with computers to connect audio and video devices?",
+        "a": "HDMI",
+        "b": "FireWire",
+        "c": "DVI",
+        "d": "VGA",
+        "answer": "A"
+    },
+    "90": {
+        "question": "E) USB Which type of memory is primarily used as cache memory?",
+        "a": "SRAM",
+        "b": "RAM",
+        "c": "DRAM",
+        "d": "ROM",
+        "answer": "A"
+    },
+    "91": {
+        "question": "Which type of motherboard expansion slot has four types ranging from x1 to x16 with each type having a different length of expansion slot?",
+        "a": "AGP",
+        "b": "PCI",
+        "c": "SATA",
+        "d": "PCIe",
+        "answer": "D"
+    },
+    "92": {
+        "question": "Which type of motherboard expansion slot sends data one bit at a time over a serial bus?",
+        "a": "PCIe",
+        "b": "PCI",
+        "c": "RAM",
+        "d": "PATA",
+        "answer": "A"
+    },
+    "93": {
+        "question": "Which unit of measurement is used to indicate the hard drive speed?",
+        "a": "pages per minute",
+        "b": "revolutions per minute",
+        "c": "clusters per minute",
+        "d": "gigabytes",
+        "answer": "B"
+    },
+    "94": {
+        "question": "Why is it important to ground both computers and network devices?",
+        "a": "to facilitate the flow of current from the power supply to the computer case",
+        "b": "to provide a path of least resistance for stray current",
+        "c": "to ensure that both the power supplied and the power used is in sync with the ground voltage",
+        "d": "to ensure that the power supply is limited to an output of 110V DC",
+        "answer": "B"
+    }
+}

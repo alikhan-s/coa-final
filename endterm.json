@@ -1,0 +1,549 @@
+{
+    "1": {
+        "question": "A freelance reporter wishes to use a service that allows files to be accessed at any time from any device. Whenever the reporter starts the laptop and connects to the internet, the files stored on the laptop must be synchronized with the service automatically. Which solution will meet the requirements?",
+        "a": "Office 365",
+        "b": "Exchange Online",
+        "c": "Virtual desktop infrastructure",
+        "d": "Dropbox",
+        "answer": "D"
+    },
+    "2": {
+        "question": "A Linux PC user notices that the PC freezes on startup and exhibits kernel panic where there is a stop screen. What is a possible cause for the issue?",
+        "a": "A driver has become corrupted.",
+        "b": "Deja Dup has been turned off in the system.",
+        "c": "LILO has been deleted.",
+        "d": "GRUB has been corrupted.",
+        "answer": "A"
+    },
+    "3": {
+        "question": "A small college wishes to deploy a learning management system (LMS) and is looking for a hosted solution. Which type of cloud-based solution would help the college to achieve the goal?",
+        "a": "Virtual application stream",
+        "b": "Dropbox",
+        "c": "Virtual desktop infrastructure",
+        "d": "Office 365",
+        "answer": "A"
+    },
+    "4": {
+        "question": "A software company has groups of developers located in different cities around the world. The company is using a cloud-based development environment so that all developers can access the same software development tools. Which cloud service is used by the company?",
+        "a": "ITaaS",
+        "b": "IaaS",
+        "c": "SaaS",
+        "d": "PaaS",
+        "answer": "D"
+    },
+    "5": {
+        "question": "A support technician wants to upgrade a system to Windows 10 but is unsure whether the hardware and software on the existing system are compatible. What tool or utility would be the best choice for the user?",
+        "a": "Windows Easy Transfer",
+        "b": "Cortana Virtual Assistant",
+        "c": "Get Windows 10 app",
+        "d": "User State Migration Tool",
+        "answer": "C"
+    },
+    "6": {
+        "question": "A technician is attempting to diagnose and rectify a common boot problem on a Windows 10 installation. Which Windows 10 advanced recovery option should the technician use?",
+        "a": "Startup Repair",
+        "b": "Reset",
+        "c": "System Image Recovery",
+        "d": "System Restore",
+        "answer": "A"
+    },
+    "7": {
+        "question": "A technician is troubleshooting a laptop with an unresponsive touchscreen. What could be the probable cause?",
+        "a": "The DC jack is not grounded or is loose.",
+        "b": "The battery is not seated properly.",
+        "c": "The digitizer is faulty.",
+        "d": "The screen is dirty.",
+        "answer": "D"
+    },
+    "8": {
+        "question": "A technician is troubleshooting a Windows 10 PC with a frozen Internet Explorer window. Which command can the technician run, as an administrator, to terminate the Internet Explorer process?",
+        "a": "taskkill /pid iexplorer.exe",
+        "b": "taskkill /f /im explorer.exe",
+        "c": "taskkill /fi iexplorer.exe",
+        "d": "taskkill /f /im iexplorer.exe",
+        "answer": "D"
+    },
+    "9": {
+        "question": "A training company offers many application courses based on Windows. The company is looking for a solution to provide a hands-on learning and practice environment to remote learners. The goal is to provide a uniform learning environment to all users. Which cloud-based solution would help the company to achieve the goal?",
+        "a": "Office 365",
+        "b": "Google Drive",
+        "c": "Virtual application stream",
+        "d": "Virtual desktop infrastructure",
+        "answer": "D"
+    },
+    "10": {
+        "question": "A user is installing a local laser printer and receives an “Access Denied” message. What is the problem?",
+        "a": "The user account does not have administrative privileges.",
+        "b": "The printer is powered off.",
+        "c": "The printer cable connection is loose.",
+        "d": "The printer is installed on the wrong port.",
+        "answer": "A"
+    },
+    "11": {
+        "question": "A user is troubleshooting a connectivity issue from the PC to a web server and wants to see a list of the traffic stops between the PC and the web server. What is the best Windows command to select to do the job?",
+        "a": "Bootrec",
+        "b": "Diskpart",
+        "c": "Recover",
+        "d": "Tracert",
+        "e": "Tasklist",
+        "answer": "D"
+    },
+    "12": {
+        "question": "A user tries to install an application on a Windows 10 Pro PC but it fails. The user tries to uninstall the application but it fails to uninstall. What option can be used to address this issue without loss of data or applications?",
+        "a": "Use Advanced Start-up",
+        "b": "Use Restore Point",
+        "c": "Uninstall and reinstall the device using Device Manager",
+        "d": "Restart the Windows Update services",
+        "answer": "B"
+    },
+    "13": {
+        "question": "An administrator is re-imaging a large number of macOS machines. What built-in tool or command can be used to remotely boot the computers?",
+        "a": "mstsc",
+        "b": "Finder",
+        "c": "NetBoot",
+        "d": "Time Machine",
+        "answer": "C"
+    },
+    "14": {
+        "question": "Android apps sometimes require extra privileges. How do Android apps run to manage this securely?",
+        "a": "Through a proxy service",
+        "b": "In a walled garden",
+        "c": "In guest mode",
+        "d": "In a sandbox",
+        "answer": "D"
+    },
+    "15": {
+        "question": "How can the life of a thermal printer be extended?",
+        "a": "Wipe the outside of the printer with a damp cloth.",
+        "b": "Clean the inside of the printer with a vacuum cleaner with a HEPA filter.",
+        "c": "Clean the heating element regularly with isopropyl alcohol.",
+        "d": "Keep the paper dry in a low humidity environment.",
+        "answer": "C"
+    },
+    "16": {
+        "question": "How does virtualization help with disaster recovery within a data center?",
+        "a": "Support of live migration",
+        "b": "Guarantee of power",
+        "c": "Improvement of business practices",
+        "d": "Supply of consistent air flow",
+        "answer": "A"
+    },
+    "17": {
+        "question": "In laser printing, what is the name of the process of applying toner to the latent image on the drum?",
+        "a": "Charging",
+        "b": "Fusing",
+        "c": "Developing",
+        "d": "Transferring",
+        "answer": "C"
+    },
+    "18": {
+        "question": "What are two cables that are used to connect a computer to a printer?",
+        "a": "PS/2, serial",
+        "b": "Serial, FireWire",
+        "c": "FireWire, eSATA",
+        "d": "eSATA, HDMI",
+        "e": "HDMI, PS/2",
+        "answer": "B"
+    },
+    "19": {
+        "question": "What corrective action would a technician take in response to a print spooler error?",
+        "a": "Clean the printer",
+        "b": "Reboot the printer",
+        "c": "Restart the print spooler",
+        "d": "Update the printer driver",
+        "answer": "C"
+    },
+    "20": {
+        "question": "What could be used in conjunction with a laptop in order to read flash media?",
+        "a": "M.2 card",
+        "b": "SSD",
+        "c": "Card reader",
+        "d": "SO-DIMM",
+        "answer": "C"
+    },
+    "21": {
+        "question": "What feature of an operating system allows it to support two or more CPUs?",
+        "a": "Multitasking",
+        "b": "Multiprocessing",
+        "c": "Multiuser support",
+        "d": "Multithreading",
+        "answer": "B"
+    },
+    "22": {
+        "question": "What is a characteristic of global and per-document options in print settings?",
+        "a": "Global options take precedence over per-document options.",
+        "b": "It is not possible to configure per-document options.",
+        "c": "Per-document options override global options.",
+        "d": "It is not possible to configure global options.",
+        "answer": "C"
+    },
+    "23": {
+        "question": "What is a characteristic of thermal inkjet nozzles?",
+        "a": "The vibration of the crystal controls the flow of ink.",
+        "b": "The heat creates a bubble of steam in the chamber.",
+        "c": "Heat is applied to the ink reservoir of each nozzle.",
+        "d": "A charge is applied to the printhead.",
+        "answer": "B"
+    },
+    "24": {
+        "question": "What is a design consideration for mobile CPUs used in laptops compared with desktop CPUs?",
+        "a": "They require smaller cooling mechanisms than desktops do.",
+        "b": "They operate at higher clock speeds than desktops do.",
+        "c": "They consume more power than desktops do.",
+        "d": "They are interchangeable with desktop CPUs.",
+        "answer": "A"
+    },
+    "25": {
+        "question": "What is a good source for safely downloading Android apps?",
+        "a": "The Apple App Store",
+        "b": "Freeware sites",
+        "c": "iTunes",
+        "d": "Google Play",
+        "answer": "D"
+    },
+    "26": {
+        "question": "What is a purpose of the boot manager program?",
+        "a": "It checks the validity of hardware and software on the device after a factory reset.",
+        "b": "It allows the user to select the OS to use to boot the device.",
+        "c": "It allows the user to determine which apps are automatically opened during the boot process.",
+        "d": "It automates the POST and checks the disk for bad sectors during a boot.",
+        "e": "It manages antivirus signature files, encryption keys, and certificates when a device boots.",
+        "answer": "B"
+    },
+    "27": {
+        "question": "What is the main function of a hypervisor?",
+        "a": "It is software used to coordinate and prepare data for analysis.",
+        "b": "It is used by ISPs to monitor cloud computing resources.",
+        "c": "It is a device that synchronizes a group of sensors.",
+        "d": "It is a device that filters and checks security credentials.",
+        "e": "It is used to create and manage multiple VM instances on a host machine.",
+        "answer": "E"
+    },
+    "28": {
+        "question": "What is the most commonly used method to close an application that appears to be frozen on an OS X-based computer?",
+        "a": "Use Force Quit",
+        "b": "Access the Status menu",
+        "c": "Use Task Manager",
+        "d": "Access the Notification Center",
+        "answer": "A"
+    },
+    "29": {
+        "question": "What is the purpose of a digitizer in a mobile device?",
+        "a": "To convert AC to DC",
+        "b": "To convert analog video signals to digital ones",
+        "c": "To convert user touch actions to digital input signals",
+        "d": "To convert digital music to analog for headphone delivery",
+        "answer": "C"
+    },
+    "30": {
+        "question": "What is the purpose of the Additional Drivers button in the Sharing tab of the Printer Properties?",
+        "a": "To add additional drivers for other printers connected to the computer",
+        "b": "To add additional drivers for duplex printing",
+        "c": "To add additional drivers for other printers in the network",
+        "d": "To add additional drivers for other operating systems",
+        "answer": "D"
+    },
+    "31": {
+        "question": "What is the purpose of Windows 10 ReadyBoost?",
+        "a": "It enables Windows to treat an external flash device as a hard drive cache.",
+        "b": "It enables the quadruple channels on a 64-bit processor.",
+        "c": "It enables the UEFI BIOS to boot faster.",
+        "d": "It speeds up the Windows 10 start time.",
+        "answer": "A"
+    },
+    "32": {
+        "question": "What is the result of doing a factory reset on a mobile device?",
+        "a": "A complete backup is created and malware is removed.",
+        "b": "The OS is updated with the latest patches.",
+        "c": "All user data and settings are deleted.",
+        "d": "The OS is deleted and data is transferred to the cloud.",
+        "answer": "C"
+    },
+    "33": {
+        "question": "What mechanism is used in a laser printer to permanently fuse the toner to the paper?",
+        "a": "Heat",
+        "b": "Electrical charge",
+        "c": "Pressure",
+        "d": "Light",
+        "answer": "A"
+    },
+    "34": {
+        "question": "What method can be used to connect to a printer wirelessly?",
+        "a": "WiMax",
+        "b": "Satellite",
+        "c": "IEEE 802.11 standards",
+        "d": "Microwave",
+        "answer": "C"
+    },
+    "35": {
+        "question": "What method is typically used on a mobile device to provide internet connectivity?",
+        "a": "Cellular",
+        "b": "Z-Wave",
+        "c": "GPS",
+        "d": "Zigbee",
+        "answer": "A"
+    },
+    "36": {
+        "question": "What represents apps in the Windows Phone interface?",
+        "a": "Widgets",
+        "b": "Buttons",
+        "c": "Tiles",
+        "d": "Icons",
+        "answer": "C"
+    },
+    "37": {
+        "question": "What term is used to describe a logical drive that can be formatted to store data?",
+        "a": "Volume",
+        "b": "Partition",
+        "c": "Cluster",
+        "d": "Track",
+        "e": "Sector",
+        "answer": "B"
+    },
+    "38": {
+        "question": "What tool or command is used in macOS to navigate the file system?",
+        "a": "mstsc",
+        "b": "Finder",
+        "c": "Task Manager",
+        "d": "File Explorer",
+        "answer": "B"
+    },
+    "39": {
+        "question": "What type of backlight is used in an LED display?",
+        "a": "LED",
+        "b": "LCD",
+        "c": "Light-generating pixels",
+        "d": "CCFL",
+        "answer": "A"
+    },
+    "40": {
+        "question": "What type of connection would be used to connect a printer directly to the network?",
+        "a": "Ethernet",
+        "b": "USB",
+        "c": "FireWire",
+        "d": "Serial",
+        "answer": "A"
+    },
+    "41": {
+        "question": "When a user is working on a system that uses a network file system, there is no difference between accessing a file stored locally or on another computer on the network.",
+        "a": "True",
+        "b": "False",
+        "answer": "A"
+    },
+    "42": {
+        "question": "When the device roams out of the range of any Wi-Fi networks, it can connect to the cellular data network if this feature is enabled. To which OS does this relate?",
+        "a": "iOS",
+        "b": "Android",
+        "c": "Both",
+        "answer": "C"
+    },
+    "43": {
+        "question": "When would the PXE option be used when repairing a PC?",
+        "a": "The display cannot be seen clearly.",
+        "b": "There is no response from the mouse or keyboard.",
+        "c": "A newly installed application caused the system to perform erratically.",
+        "d": "The computer needs a replacement operating system.",
+        "answer": "D"
+    },
+    "44": {
+        "question": "Where are 32-bit program files located in a 64-bit version of Windows 10 Pro?",
+        "a": "C:\\Windows\\System32",
+        "b": "C:\\Users",
+        "c": "C:\\Program Files",
+        "d": "C:\\Program Files (x86)",
+        "answer": "D"
+    },
+    "45": {
+        "question": "Which action supports an effective printer preventive maintenance program?",
+        "a": "Replace laser printer toner at set predetermined time intervals.",
+        "b": "Clean inkjet print heads when they stop working.",
+        "c": "Disconnect the printer from the power source when it is not in use.",
+        "d": "Reset the printer page counters if available.",
+        "answer": "D"
+    },
+    "46": {
+        "question": "Which cloud computing service would be best for an organization that does not have the technical knowledge to host and maintain applications at their local site?",
+        "a": "IaaS",
+        "b": "SaaS",
+        "c": "ITaaS",
+        "d": "PaaS",
+        "answer": "B"
+    },
+    "47": {
+        "question": "Which cloud model provides services for a specific organization or entity?",
+        "a": "Community cloud",
+        "b": "Private cloud",
+        "c": "Public cloud",
+        "d": "Hybrid cloud",
+        "answer": "B"
+    },
+    "48": {
+        "question": "Which cloud-based storage service does Microsoft provide for backups?",
+        "a": "Dropbox",
+        "b": "Google Sync",
+        "c": "OneDrive",
+        "d": "iCloud",
+        "answer": "C"
+    },
+    "49": {
+        "question": "Which command line utility was developed by Microsoft to allow users to transfer files and settings to a new edition of Windows OS during an upgrade to Windows 10?",
+        "a": "Windows Upgrade Assistant",
+        "b": "Windows Easy Transfer",
+        "c": "User State Migration Tool",
+        "d": "PCmover Express",
+        "answer": "C"
+    },
+    "50": {
+        "question": "Which device can scan a document and attach the scan to an email?",
+        "a": "Laser printer",
+        "b": "Thermal printer",
+        "c": "Networked MFD",
+        "d": "Automatic document feeder",
+        "answer": "C"
+    },
+    "51": {
+        "question": "Which document function can a networked MFD provide that is unavailable on a standalone document copier or printer?",
+        "a": "Scan to local memory",
+        "b": "Scan to paper",
+        "c": "Scan to multiple paper copies",
+        "d": "Scan to email",
+        "answer": "D"
+    },
+    "52": {
+        "question": "Which factor affects the speed of an inkjet printer?",
+        "a": "The cost of the inkjet cartridges",
+        "b": "The quality of the paper",
+        "c": "The size of printer power supply",
+        "d": "The desired quality of the image",
+        "answer": "D"
+    },
+    "53": {
+        "question": "Which feature is included with both macOS and Apple iOS to establish a Wi-Fi direct connection between devices to simplify file transfer?",
+        "a": "Nearby Sharing",
+        "b": "Workgroup",
+        "c": "AirDrop",
+        "d": "Homegroup",
+        "answer": "C"
+    },
+    "54": {
+        "question": "Which file sharing mechanism is included with Microsoft Windows 10 to provide simple file sharing via Wi-Fi and Bluetooth?",
+        "a": "Nearby Sharing",
+        "b": "AirDrop",
+        "c": "Homegroup",
+        "d": "NFC",
+        "e": "Workgroup",
+        "answer": "A"
+    },
+    "55": {
+        "question": "Which file system is used to access files over a network?",
+        "a": "NFS",
+        "b": "CDFS",
+        "c": "FAT",
+        "d": "NTFS",
+        "answer": "A"
+    },
+    "56": {
+        "question": "Which is a characteristic of a Type 1 hypervisor?",
+        "a": "Installed on an existing operating system",
+        "b": "Does not require management console software",
+        "c": "Best suited for consumers and not for an enterprise environment",
+        "d": "Installed directly on a server",
+        "answer": "D"
+    },
+    "57": {
+        "question": "Which key, when pressed during the boot process, will allow the user to choose to start Windows in safe mode?",
+        "a": "Esc",
+        "b": "Windows",
+        "c": "F8",
+        "d": "F1",
+        "answer": "C"
+    },
+    "58": {
+        "question": "Which laptop component is commonly found in the laptop lid?",
+        "a": "Motherboard",
+        "b": "Power connector",
+        "c": "Wi-Fi antenna",
+        "d": "SODIMM",
+        "answer": "C"
+    },
+    "59": {
+        "question": "Which laptop component would be considered an FRU?",
+        "a": "Battery",
+        "b": "Display",
+        "c": "SODIMM",
+        "d": "External card reader",
+        "answer": "B"
+    },
+    "60": {
+        "question": "Which Linux file system introduced journaling to minimize file system corruption after power loss?",
+        "a": "ext2",
+        "b": "NFS",
+        "c": "CDFS",
+        "d": "ext3",
+        "answer": "D"
+    },
+    "61": {
+        "question": "Which protocol can be used to transfer messages from an email server to an email client?",
+        "a": "SMTP",
+        "b": "SNMP",
+        "c": "POP3",
+        "d": "HTTP",
+        "answer": "C"
+    },
+    "62": {
+        "question": "Which statement accurately describes the GUID partition table?",
+        "a": "It cannot be used in a multiboot environment.",
+        "b": "It is not supported by Windows 10 Home edition.",
+        "c": "It is commonly used in computers with UEFI firmware.",
+        "d": "It is 512 bytes long and contains the boot loader.",
+        "answer": "C"
+    },
+    "63": {
+        "question": "Which statement describes a printer driver?",
+        "a": "It is software that converts a document into the format that a printer can understand.",
+        "b": "It is cache inside a printer that stores documents to be printed in a queue.",
+        "c": "It is the interface in Windows that identifies a unique printer attached to the workstation.",
+        "d": "It is the configuration code that is sent to a printer to identify the operating system of the workstation.",
+        "answer": "A"
+    },
+    "64": {
+        "question": "Which statement describes dynamic disks in a PC that is running Windows 10 Pro?",
+        "a": "A partition created on a dynamic disk can be shrunk without deleting the partition first.",
+        "b": "More space can be added to a partition by extending it into adjacent, unallocated space, as long as it is contiguous.",
+        "c": "Free space can only be added from the same disk to extend the volume.",
+        "d": "They have the ability to create volumes that span across more than one disk.",
+        "answer": "D"
+    },
+    "65": {
+        "question": "Which statement describes the iOS app icons on a mobile device screen?",
+        "a": "Each icon is a shortcut of the app.",
+        "b": "Each icon represents the actual app.",
+        "c": "Each icon links to multiple instances of the actual app.",
+        "d": "Each icon represents an instance of the actual app.",
+        "answer": "B"
+    },
+    "66": {
+        "question": "Which statement is true regarding libraries in Windows 10?",
+        "a": "Libraries allow Windows 10 to index files faster.",
+        "b": "Libraries allow Windows 10 to support file names longer than 20 characters.",
+        "c": "Libraries allow Windows 10 to link multiple different directories.",
+        "d": "Libraries allow Windows 10 to enforce the EFS file system.",
+        "answer": "C"
+    },
+    "67": {
+        "question": "Which type of hypervisor is implemented when a user with a laptop running macOS installs a Windows virtual OS instance?",
+        "a": "Type 2",
+        "b": "Bare metal",
+        "c": "Type 1",
+        "d": "Virtual machine",
+        "answer": "A"
+    },
+    "68": {
+        "question": "Which type of hypervisor would most likely be used in a data center?",
+        "a": "Type 1",
+        "b": "Hadoop",
+        "c": "Nexus",
+        "d": "Type 2",
+        "answer": "A"
+    }
+}
