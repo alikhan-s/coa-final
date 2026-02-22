@@ -101,18 +101,20 @@
         "b": "access point",
         "c": "multipurpose device",
         "d": "network switch",
+        "e": "USB hub",
         "answer": "A"
     },
     "14": {
-        "question": "E) USB hub A customer needs additional storage space on an older computer. What will the technician look at in the computer to determine if an additional hard drive can be added?",
+        "question": "A customer needs additional storage space on an older computer. What will the technician look at in the computer to determine if an additional hard drive can be added?",
         "a": "an available PATA/SATA connection",
         "b": "the heat that is generated and air flow requirements",
         "c": "BIOS version",
         "d": "an open PCI/PCIe expansion slot",
+        "e": "adequate RAM",
         "answer": "A"
     },
     "15": {
-        "question": "E) adequate RAM A network technician is setting up a web server for a small company. The company has obtained a domain name company-a.com from a domain registry service. The new web server is accessible through the IP address matching the domain. However, when the technician types company-a.com in the web browser, an error message displays saying that “The connection has timed out”. What is the problem?",
+        "question": "A network technician is setting up a web server for a small company. The company has obtained a domain name company-a.com from a domain registry service. The new web server is accessible through the IP address matching the domain. However, when the technician types company-a.com in the web browser, an error message displays saying that “The connection has timed out”. What is the problem?",
         "a": "The domain name resolution failed.",
         "b": "The DHCP server is down.",
         "c": "The URL needs to be http://company-a.com.",
@@ -229,10 +231,11 @@
         "b": "video card",
         "c": "PATA optical drive",
         "d": "SATA drive",
+        "e": "floppy drive",
         "answer": "A"
     },
     "30": {
-        "question": "E) floppy drive A technician needs to add a new wireless device to a small WLAN. The WLAN is a mixture of old and newer 802.11b and 802.11g devices. What choice for the new device would provide the most interoperability for present and future growth?",
+        "question": "A technician needs to add a new wireless device to a small WLAN. The WLAN is a mixture of old and newer 802.11b and 802.11g devices. What choice for the new device would provide the most interoperability for present and future growth?",
         "a": "Add a new 802.11n device.",
         "b": "Add a new 802.11g device.",
         "c": "Add a new 802.11a device.",
@@ -509,18 +512,20 @@
         "b": "motherboard",
         "c": "RAM module",
         "d": "sound card",
+        "e": "video card",
         "answer": "B"
     },
     "65": {
-        "question": "E) video card When a new PC is being built, which component has the most influence when selecting the case and power supply?",
+        "question": "When a new PC is being built, which component has the most influence when selecting the case and power supply?",
         "a": "hard disk type",
         "b": "motherboard",
         "c": "RAM module",
         "d": "sound card",
+        "e": "video card",
         "answer": "B"
     },
     "66": {
-        "question": "E) video card Where would a technician use an RG-6 cable?",
+        "question": "Where would a technician use an RG-6 cable?",
         "a": "when connecting a display to a PC",
         "b": "when attaching a PC to a LAN",
         "c": "when replacing cable TV cabling",
@@ -701,18 +706,20 @@
         "b": "FireWire",
         "c": "DVI",
         "d": "VGA",
+        "e": "USB",
         "answer": "A"
     },
     "89": {
-        "question": "E) USB Which type of interface was originally developed for high-definition televisions and is also popular to use with computers to connect audio and video devices?",
+        "question": "Which type of interface was originally developed for high-definition televisions and is also popular to use with computers to connect audio and video devices?",
         "a": "HDMI",
         "b": "FireWire",
         "c": "DVI",
         "d": "VGA",
+        "e": "USB",
         "answer": "A"
     },
     "90": {
-        "question": "E) USB Which type of memory is primarily used as cache memory?",
+        "question": "Which type of memory is primarily used as cache memory?",
         "a": "SRAM",
         "b": "RAM",
         "c": "DRAM",
